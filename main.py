@@ -21,3 +21,16 @@ seven.next  = eight
 
 llist.push("soat 6:00 da tush ko`rayotgan bo`laman")
 #llist.printList()
+
+#yangi tugunni o`rtaga qo`shish
+
+llist.insertAfter(llist.head.next.next, "soat 7:30 da uy ishlari tugagan bo`ladi")
+#llist.printList()       
+
+#yangi tugunni list oxiriga qo`y
+
+llist.append("soat 8:30 universitetda dars boshlanadi")
+
+#tuguni llistdan chiqaramiz
+llist.deleteNode("soat yettida uy ishlarini qilaman")
+llist.printList()
